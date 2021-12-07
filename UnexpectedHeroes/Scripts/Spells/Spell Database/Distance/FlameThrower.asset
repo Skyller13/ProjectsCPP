@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de405b43c079fb8479ff89aa6b85638a, type: 3}
+  m_Name: FlameThrower
+  m_EditorClassIdentifier: 
+  Name: FlameThrower
+  Description: 'Throw flames over 5 meters in front of you, this spell hitting targets
+    in a cone '
+  firstSpellType: 5
+  CategoryType: 1
+  Caracteristic: 1
+  animationType: 0
+  RequiredTarget: 4
+  NumberTarget: 3
+  Selection: 2
+  firstElement: 3
+  secondElement: -1
+  Effect: 4
+  EfectOnTime: 0
+  cooldown: 2
+  damage: 20
+  SideEffectChance: 0
+  nbEffectTurn: 0
+  DotEffectChance: 15
+  nbDotEffectTurn: 2
+  damageTick: 7
+  CriticalStrike: 12.5
+  CriticalFactor: 1.3
+  SpellRatio: 0.8
+  Cost: 5
+  levelRequired: 1
+  spellSpeed: 1
+  RangeAction: 1
+  Condition: 4
+  range: 5
+  nbTargetRequired: 0
+  timeRemain: 0
+  gameobject: {fileID: 2661895655172133042, guid: 81d7d297c49d9e7409af60bf46a6489f,
+    type: 3}
+  particle: {fileID: 0}
+  audioClipCode:
+  - FlameThrower

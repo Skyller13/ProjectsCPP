@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de405b43c079fb8479ff89aa6b85638a, type: 3}
+  m_Name: Quake
+  m_EditorClassIdentifier: 
+  Name: Quake
+  Description: Quake.
+  firstSpellType: 5
+  CategoryType: 1
+  Caracteristic: 1
+  animationType: 0
+  RequiredTarget: 4
+  NumberTarget: 3
+  Selection: 2
+  firstElement: 0
+  secondElement: -1
+  Effect: 2
+  EfectOnTime: 4
+  cooldown: 0
+  damage: 200
+  SideEffectChance: 10
+  nbEffectTurn: 1
+  DotEffectChance: 0
+  nbDotEffectTurn: 0
+  damageTick: 0
+  CriticalStrike: 10
+  CriticalFactor: 1.2
+  SpellRatio: 0.7
+  Cost: 5
+  levelRequired: 1
+  spellSpeed: 1
+  RangeAction: 0
+  Condition: 2
+  range: 5
+  nbTargetRequired: 0
+  timeRemain: 0
+  gameobject: {fileID: 1314945738539566, guid: 32c9fd11a72259d45aa26ae41c34c5aa, type: 3}
+  particle: {fileID: 0}
+  audioClipCode:
+  - Earthquake

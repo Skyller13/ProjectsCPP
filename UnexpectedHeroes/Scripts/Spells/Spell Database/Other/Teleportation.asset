@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de405b43c079fb8479ff89aa6b85638a, type: 3}
+  m_Name: Teleportation
+  m_EditorClassIdentifier: 
+  Name: Teleportation
+  Description: 'Cast this spell allow you to change position on the same line, maximum
+    range : 3 meters'
+  firstSpellType: 9
+  CategoryType: 1
+  Caracteristic: 1
+  animationType: 0
+  RequiredTarget: 3
+  NumberTarget: 3
+  Selection: 2
+  firstElement: -1
+  secondElement: -1
+  Effect: 4
+  EfectOnTime: 4
+  cooldown: 5
+  damage: 0
+  SideEffectChance: 0
+  nbEffectTurn: 0
+  DotEffectChance: 0
+  nbDotEffectTurn: 0
+  damageTick: 0
+  CriticalStrike: 0
+  CriticalFactor: 1
+  SpellRatio: 0.1
+  Cost: 10
+  levelRequired: 15
+  spellSpeed: 1
+  RangeAction: 0
+  Condition: 6
+  range: 3
+  nbTargetRequired: 0
+  timeRemain: 0
+  gameobject: {fileID: 0}
+  particle: {fileID: 0}
+  audioClipCode:
+  - Teleportation

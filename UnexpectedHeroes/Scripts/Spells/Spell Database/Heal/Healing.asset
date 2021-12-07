@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de405b43c079fb8479ff89aa6b85638a, type: 3}
+  m_Name: Healing
+  m_EditorClassIdentifier: 
+  Name: Healing
+  Description: Restore Health (10 points).
+  firstSpellType: 0
+  CategoryType: 3
+  Caracteristic: 1
+  animationType: 0
+  RequiredTarget: 3
+  NumberTarget: 3
+  Selection: 2
+  firstElement: 4
+  secondElement: -1
+  Effect: 4
+  EfectOnTime: 4
+  cooldown: 3
+  damage: 15
+  SideEffectChance: 0
+  nbEffectTurn: 0
+  DotEffectChance: 0
+  nbDotEffectTurn: 0
+  damageTick: 0
+  CriticalStrike: 5
+  CriticalFactor: 1.5
+  SpellRatio: 0.8
+  Cost: 5
+  levelRequired: 1
+  spellSpeed: 1
+  RangeAction: 4
+  Condition: 5
+  range: 1
+  nbTargetRequired: 0
+  timeRemain: 0
+  gameobject: {fileID: 910756959139513845, guid: 695bbda23c354f4428f7db17397b352f,
+    type: 3}
+  particle: {fileID: 0}
+  audioClipCode:
+  - Healing

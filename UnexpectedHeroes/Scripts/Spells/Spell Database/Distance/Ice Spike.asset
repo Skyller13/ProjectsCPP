@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de405b43c079fb8479ff89aa6b85638a, type: 3}
+  m_Name: Ice Spike
+  m_EditorClassIdentifier: 
+  Name: Ice Spike
+  Description: Throw an ice spike over 10 meters in the current direction of the
+    player.
+  firstSpellType: 5
+  CategoryType: 1
+  Caracteristic: 1
+  animationType: 0
+  RequiredTarget: 4
+  NumberTarget: 3
+  Selection: 2
+  firstElement: 1
+  secondElement: -1
+  Effect: 2
+  EfectOnTime: 4
+  cooldown: 2
+  damage: 27.5
+  SideEffectChance: 17.5
+  nbEffectTurn: 2
+  DotEffectChance: 0
+  nbDotEffectTurn: 0
+  damageTick: 0
+  CriticalStrike: 20
+  CriticalFactor: 1.25
+  SpellRatio: 0.7
+  Cost: 2
+  levelRequired: 5
+  spellSpeed: 2
+  RangeAction: 0
+  Condition: 0
+  range: 10
+  nbTargetRequired: 0
+  timeRemain: 0
+  gameobject: {fileID: 4837839108683869186, guid: 829d9ee894555474bb98e798d0052d0c,
+    type: 3}
+  particle: {fileID: 0}
+  audioClipCode:
+  - Ice_Spike
+  - Ice_Impact

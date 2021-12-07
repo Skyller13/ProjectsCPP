@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de405b43c079fb8479ff89aa6b85638a, type: 3}
+  m_Name: Orb of deception
+  m_EditorClassIdentifier: 
+  Name: Orb of deception
+  Description: Send out and pull back an orb that deal magic damage on the way out
+    and true damage on the way back.
+  firstSpellType: 5
+  CategoryType: 1
+  Caracteristic: 1
+  animationType: 0
+  RequiredTarget: 4
+  NumberTarget: 3
+  Selection: 2
+  firstElement: 2
+  secondElement: -1
+  Effect: 4
+  EfectOnTime: 4
+  cooldown: 2
+  damage: 30
+  SideEffectChance: 0
+  nbEffectTurn: 0
+  DotEffectChance: 0
+  nbDotEffectTurn: 0
+  damageTick: 0
+  CriticalStrike: 15
+  CriticalFactor: 1.2
+  SpellRatio: 0.8
+  Cost: 3
+  levelRequired: 1
+  spellSpeed: 0.25
+  RangeAction: 0
+  Condition: 6
+  range: 8
+  nbTargetRequired: 0
+  timeRemain: 0
+  gameobject: {fileID: 12949222505008622, guid: a71942dbeb46c0047a3d3b808df5023b,
+    type: 3}
+  particle: {fileID: 0}
+  audioClipCode: []
